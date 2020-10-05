@@ -1,0 +1,30 @@
+{
+  "name": "webpack-dotenv-provider",
+  "version": "0.0.1",
+  "description": "Webpack plugin to include .env file into your app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hmak-me/webpack-dotenv-provider.git"
+  },
+  "keywords": [
+    "webpack",
+    "plugin",
+    "dotenv",
+    ".env",
+    "provider"
+  ],
+  "author": "Hossein Maktoobian",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hmak-me/webpack-dotenv-provider/issues"
+  },
+  "homepage": "https://github.com/hmak-me/webpack-dotenv-provider#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "webpack": "^4.44.2"
+  }
+}
