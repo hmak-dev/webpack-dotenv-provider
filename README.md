@@ -1,6 +1,6 @@
 # webpack-dotenv-provider
 Webpack plugin to include .env file into your bundle. 
-It uses (dotenv)[https://www.npmjs.com/package/dotenv] to parse .env file.
+It uses [dotenv](https://www.npmjs.com/package/dotenv) to parse .env file.
 
 
 ## Installation
