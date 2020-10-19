@@ -1,7 +1,9 @@
 const webpack = require('webpack');
-const { parsed } = require('dotenv').config();
+const dotenv = require('dotenv');
 
-module.exports = () => {
+module.exports = ({ path }) => {
+	const { parsed } = dotenv.config({ path });
+
 	return new webpack.DefinePlugin(
 		Object.keys(parsed).reduce((output, key) => {
 			output[`process.env.${key}`] = `'${parsed[key]}'`;
