@@ -1,6 +1,6 @@
 {
   "name": "webpack-dotenv-provider",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Webpack plugin to include .env file into your app",
   "main": "index.js",
   "scripts": {},
